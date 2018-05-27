@@ -28,3 +28,17 @@ EXPOSE 3000
 
 CMD ["sh","-c","java -jar /app/app.jar"]
 ```
+
+# Libraries
+
+Some libs warmedup includes:
+
+```
+		<kafka.version>1.1.0</kafka.version>
+		<javaxwsrs.version>2.0.1</javaxwsrs.version>
+		<prometheus.version>0.3.0</prometheus.version>
+		<log4j.version>2.10.0</log4j.version>
+		<jersey.version>2.25</jersey.version>
+		<jetty.version>9.2.24.v20180105</jetty.version>
+		<jackson.version>2.9.4</jackson.version>
+```
